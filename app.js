@@ -1,8 +1,6 @@
 const formAddTodo = document.querySelector('.form-add-todo')
 const inputSearchTodo = document.querySelector('.form-search input')
 const todosContainer = document.querySelector('.todos-container')
-const small = document.querySelector('small')
-const li = document.querySelector('.list-group-item')
 
 const addTodo = inputValue => {
     if(inputValue.length) {
